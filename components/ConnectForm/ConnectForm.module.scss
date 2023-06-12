@@ -1,0 +1,146 @@
+.connect_form {
+  width: 550px;
+  height: 600px;
+  background: linear-gradient(
+    179.96deg,
+    #12192b 0.03%,
+    rgba(18, 25, 43, 0) 109.04%
+  );
+  border-radius: 34px;
+  backdrop-filter: blur(15px);
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 40px 40px 40px 60px;
+    gap: 8px;
+
+    label {
+      font-family: "Poppins", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 17px;
+      line-height: 26px;
+      letter-spacing: 0.085em;
+      text-transform: uppercase;
+      color: #ffffff;
+    }
+
+    input {
+      width: 434.69px;
+      height: 49.5px;
+      left: 1118.16px;
+      top: 6161.11px;
+      border: 1px solid #ffffff;
+      background-color: transparent;
+      outline: none;
+      padding: 7px;
+      font-size: 20px;
+      color: white;
+    }
+    .error_message {
+      color: red;
+      font-family: "Poppins", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 15px;
+      text-transform: uppercase;
+    }
+    textarea {
+      width: 434.69px;
+      height: 176.24px;
+      left: 1118.16px;
+      top: 6372.99px;
+      border: 1px solid #ffffff;
+      background-color: transparent;
+      outline: none;
+      font-size: 20px;
+      color: rgb(255, 255, 255);
+      padding: 7px;
+    }
+    button {
+      border: 3px solid #6d95fc;
+      border-radius: 2px;
+      width: 50%;
+      height: 40px;
+      font-family: "Poppins", sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 20px;
+      text-align: center;
+      letter-spacing: 0.145em;
+      text-transform: uppercase;
+      color: #ffffff;
+      cursor: pointer;
+      background: none;
+      margin: 0 auto;
+    }
+    button:hover {
+      color: #000000;
+      background-color: #6d95fc;
+      transition: 0.5s;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .connect_form {
+    width: 450px;
+    height: 450px;
+    form {
+      // align-items: start;
+
+      label {
+        font-size: 14px;
+      }
+
+      input {
+        width: 100%;
+        height: 40px;
+        font-size: 25px;
+      }
+      textarea {
+        width: 100%;
+        height: 150px;
+        font-size: 27px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .connect_form {
+    width: 350px;
+    height: 350px;
+    form {
+      padding: 30px;
+      label {
+        font-size: 12px;
+      }
+      input {
+        width: 100%;
+        height: 30px;
+      }
+      textarea {
+        width: 100%;
+        height: 130px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .connect_form {
+    width: 300px;
+    height: 360px;
+    margin-bottom: 80px;
+    form {
+      button {
+        margin-top: 30px;
+        width: 80%;
+        height: 37px;
+      }
+    }
+  }
+}

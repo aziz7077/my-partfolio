@@ -1,0 +1,17 @@
+.ant-notification-notice {
+  background-color: green;
+}
+
+.ant-notification-notice-message{
+  color: #ffff;
+}
+
+
+
+
+@media screen and (max-width:480px){
+  .ant-notification-notice{
+    width: 100%;
+    height: 60px;
+  }
+}

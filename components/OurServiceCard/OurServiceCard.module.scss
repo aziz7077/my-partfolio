@@ -1,0 +1,114 @@
+
+  .first{
+    display: flex;
+    .card:nth-child(1) {
+      background: linear-gradient(
+        90deg,
+        rgba(109, 149, 252, 0.35) -106.67%,
+        rgba(21, 21, 21, 0.31) 100.83%
+      );
+    }
+    .card:nth-child(2) {
+      background: linear-gradient(
+        357.34deg,
+        rgba(109, 149, 252, 0.55) -217.33%,
+        rgba(109, 149, 252, 0) 66.64%
+      );
+    }
+  
+  }
+  .second{
+    display: flex;
+    .card:nth-child(1) {
+      background: linear-gradient(
+        2.42deg,
+        rgba(109, 149, 252, 0.55) -180.08%,
+        rgba(109, 149, 252, 0) 67.52%
+      );
+    }
+    .card:nth-child(2) {
+      background: linear-gradient(
+        90deg,
+        rgba(109, 149, 252, 0.35) -292.67%,
+        rgba(21, 21, 21, 0.31) 74.83%
+      );
+    }
+
+  }
+    .card {
+    width: 250px;
+    height: 230px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    gap: 50px;
+
+    img{
+width: 100px;
+height: 100px;
+    }
+
+    h1 {
+      font-family: "Poppins", sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 32px;
+      text-align: center;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: #6d95fc;
+    }
+  }
+  
+  
+
+
+
+@media screen and (max-width:768px) {
+
+
+    .card{
+      width: 200px;
+      height: 200px;
+      padding: 20px;
+      gap: 20px;
+
+      h1{
+        font-size: 18px;
+      }
+    }
+  }
+
+
+
+@media screen and (max-width:480px) {
+  .first {
+    display: flex;
+    flex-direction: column;
+  }
+  .second {
+    display: flex;
+    flex-direction: column;
+  }
+    .card{
+      background: none !important;
+      width: 250px;
+      height: 250px;
+      padding: 20px;
+      gap: 20px;
+      
+      img:nth-child(1){
+        border-radius: 10px;
+        background: linear-gradient(
+          357.34deg,
+          rgba(109, 149, 252, 0.55) -207.33%,
+          rgba(109, 149, 252, 0) 106.64%
+        );      }
+      
+      h1{
+        font-size: 18px;
+      }
+    }
+  }

@@ -1,0 +1,221 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+
+$button-bg: #6d95fc;
+$list-bg: #000;
+$text-color: #6d95fc;
+$text-color-hover: white;
+$menu-icon-transition: transform 300ms cubic-bezier(0.52, -0.8, 0.52, 0.52);
+
+.list_container {
+  display: none;
+  position: fixed;
+  bottom: 50px;
+  right: 60px;
+  z-index: 1;
+  &.active {
+    .more_button_list {
+      opacity: 1;
+      transform: scale(1);
+    }
+
+    .more_button_list_item {
+      animation: fadeInItem 0.6s 0.2s forwards;
+
+      &:nth-child(2) {
+        animation-delay: 0.4s;
+      }
+      &:nth-child(3) {
+        animation-delay: 0.6s;
+      }
+      &:nth-child(4) {
+        animation-delay: 0.8s;
+      }
+      &:nth-child(5) {
+        animation-delay: 1s;
+      }
+    }
+
+    .more_button {
+      animation: onePulse 0.6s forwards linear;
+    }
+
+    .menu_icon_wrapper {
+      transform: rotate(-45deg);
+    }
+
+    .menu_icon_line {
+      &.first {
+        transform: rotate(-90deg) translateX(1px);
+      }
+
+      &.last {
+        transform: rotate(-90deg) translateX(-1px);
+      }
+    }
+  }
+
+.more_button {
+  background-color: $button-bg;
+  box-shadow: 0px 0px 0px 4px rgba(92, 103, 255, 0.3);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  transition: 0.2s ease-in;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  position: relative;
+  z-index: 3;
+
+  &:hover,
+  &:focus {
+    box-shadow: 0px 0px 0px 8px rgba(92, 103, 255, 0.3);
+    background-color: darken($button-bg, 4%);
+  }
+
+    &:focus {
+      outline: 0;
+    }
+
+  &_list {
+    background-color: $list-bg;
+    border-radius: 8px;
+    border: 2px solid $button-bg;
+    list-style-type: none;
+    width: 140px;
+    height: 210px;
+    box-shadow: 0px 0px 4px 4px rgba(150, 157, 249, 0.16);
+    padding: 6px;
+    position: absolute;
+    right: 24px;
+    bottom: 30px;
+    opacity: 0;
+    transform: scale(0);
+    transform-origin: bottom right;
+    transition: all 0.3s ease 0.1s;
+    z-index:2;
+
+      li {
+        opacity: 0;
+      }
+    }
+
+    &_list_item {
+      display: flex;
+      align-items: center;
+      padding: 10px;
+      border-radius: 4px;
+      cursor: pointer;
+      position: relative;
+      transition: 0.2s ease-in;
+      transform: translatex(-10px);
+
+      &:after {
+        content: "";
+        position: absolute;
+        height: 1px;
+        width: calc(100% - 24px);
+        left: 12px;
+        bottom: 0;
+        background-color: rgba(132, 160, 244, 0.1);
+      }
+      &:last-child:after {
+        display: none;
+      }
+
+      a {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        text-decoration: none;
+        font-family: "Montserrat", sans-serif;
+        line-height: 20px;
+        font-size: 14px;
+        color: $text-color;
+        transition: 0.4s;
+
+        &:hover {
+          color: $text-color-hover;
+          transition: 0.4s;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .list_container {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .list_container {
+    bottom: 40px;
+    right: 40px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .list_container {
+    bottom: 40px;
+    right: 25px;
+  }
+}
+
+@keyframes onePulse {
+  0% {
+    box-shadow: 0px 0px 0px 0px rgba(92, 103, 255, 0.3);
+  }
+
+  50% {
+    box-shadow: 0px 0px 0px 12px rgba(92, 103, 255, 0.1);
+  }
+
+  100% {
+    box-shadow: 0px 0px 0px 4px rgba(92, 103, 255, 0.3);
+  }
+}
+
+@keyframes fadeInItem {
+  100% {
+    transform: translatex(0px);
+    opacity: 1;
+  }
+}
+
+.menu_icon_wrapper {
+  border-radius: 2px;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: transform 330ms ease-out;
+}
+
+.menu_icon_line {
+  background-color: #fff;
+  border-radius: 2px;
+  width: 100%;
+  height: 2px;
+
+  &.half {
+    width: 50%;
+  }
+
+  &.first {
+    transition: $menu-icon-transition;
+    transform-origin: right;
+  }
+
+  &.last {
+    align-self: flex-end;
+    transition: $menu-icon-transition;
+    transform-origin: left;
+  }
+}

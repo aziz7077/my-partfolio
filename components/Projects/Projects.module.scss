@@ -1,0 +1,84 @@
+﻿.projects {
+  display: flex;
+  flex-direction: column;
+  margin-top: 93px;
+  h1 {
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 136.5%;
+    text-align: center;
+    text-transform: capitalize;
+    span {
+      color: #6d95fc;
+    }
+  }
+  .work_tag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 38.1px;
+    margin-top: 49px;
+    hr {
+      width: 97.5px;
+      height: 0px;
+      border: 1px solid #ffffff;
+    }
+    p {
+      font-family: "Poppins", sans-serif;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 21px;
+      line-height: 32px;
+      letter-spacing: 0.145em;
+      text-transform: uppercase;
+      color: #6d95fc;
+    }
+  }
+  .slider {
+    margin-top: 49px;
+    margin-bottom: 49px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .projects {
+    h1 {
+      font-size: 35px;
+    }
+    .work_tag {
+      p {
+        font-size: 16px;
+      }
+      hr {
+        width: 50px;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .projects {
+    padding: 0 20px 0 20px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .projects {
+    h1 {
+      font-size: 25px;
+    }
+    .work_tag {
+      gap: 10px;
+      p {
+        font-size: 16px;
+        text-align: center;
+      }
+      hr {
+        width: 30px;
+      }
+    }
+  }
+}

@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.slider_block {
+  height: 100%;
+  margin: 0 auto;
+  padding: 0 67px 0 67px;
+  h4 {
+    font-family: "Poppins" , sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 149.5%;
+    margin-top: 23px;
+    color: #ffffff;
+    max-height: 165px;
+    text-align: left;
+    height: 100%;
+    overflow: hidden; 
+  }
+  .slider_user {
+    img{
+      width: 65px !important;
+      height: 65px !important;
+    }
+    width: 410px;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 9px;
+    .slider_user_title {
+      margin-left: -19px;
+      p:nth-child(1) {
+        font-family: "Poppins", sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 21px;
+        line-height: 166.5%;
+        text-align: justify;
+        letter-spacing: 0.04em;
+        color: #ffffff;
+      }
+      p:nth-child(2) {
+        font-family: "Poppins", sans-serif;
+        font-style: italic;
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 166.5%;
+        text-align: justify;
+        letter-spacing: 0.04em;
+        color: #6d95fc;
+      }
+    }
+    
+    img:nth-child(3) {
+      width: 45px !important;
+      height: 35px !important;
+    }
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .slider_block {
+    padding: 0;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: start;
+    h4 {
+      width: 100%;
+      margin-top: 150px;
+      margin-bottom: 20px;
+      font-size: 21px;
+      text-align: center;
+      max-height: 215px !important;
+      overflow: visible !important;
+    }
+    .slider_user {
+      margin-top: 0;
+      margin-bottom: 30px;
+      width: 100%;
+      justify-content: space-around;
+      flex-direction: column;
+      justify-content: initial;
+      flex-direction: column;
+      align-items: center;
+      .slider_user_title {
+        margin-left: 0;
+        margin-top: 34px;
+        gap: 12px;
+        text-align: center;
+        p:nth-child(2) {
+          margin-top: 10px;
+        }
+      }
+      img:nth-child(3) {
+        margin-left: 0;
+        margin-left: 200px;
+        margin-top: 30px;
+        order: -1;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}

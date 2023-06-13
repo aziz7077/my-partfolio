@@ -28,7 +28,6 @@ const SliderReviews = ({ info }) => {
 											<p>{item.name}</p>
 											<p>{item.email}</p>
 										</div>
-										<Image src={logo} alt="img" />
 									</div>
 								</div>
 							</SwiperSlide>

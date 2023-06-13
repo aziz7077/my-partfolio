@@ -1,13 +1,12 @@
 ﻿import React, { useRef } from "react";
 import s from "./Hero.module.scss";
 import { motion } from "framer-motion";
-import VideoBackground from "../Background/Background";
+
 
 const Hero = () => {
   return (
     <>
       <div className={s.last}>
-        <VideoBackground />
         <motion.div
           style={{
             background:

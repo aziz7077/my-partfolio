@@ -22,7 +22,7 @@
       height: auto;
       display: flex;
       align-items: center;
-
+      justify-content: center;
       img {
         width: 50%;
         height: auto;
@@ -153,6 +153,7 @@
       flex-wrap: wrap-reverse;
       font-family: "Poppins", sans-serif;
       .right_side {
+        padding-top: 50px;
         gap: 24px;
         text-align: left;
         align-items: left;
@@ -208,11 +209,6 @@
   }
 }
 
-@media screen and (max-width: 425px) {
-  .robot {
-    padding: 0;
-  }
-}
 
 @media screen and (max-width: 450px) {
   .robot {
@@ -232,7 +228,7 @@
         width: 100%;
         height: 50vh;
         img {
-          width: 100%;
+          width: 70%;
           height: auto;
         }
       }
@@ -276,12 +272,6 @@
   }
 }
 
-@media screen and (max-width: 425px) {
-  .robot {
-    padding: 0;
-  }
-}
-
 @media screen and (max-width: 360px) {
   .robot {
     .container {
@@ -299,10 +289,6 @@
         min-height: 315px;
         width: 100%;
         height: 50vh;
-        img {
-          width: 100%;
-          height: auto;
-        }
       }
       .right_side {
         text-align: center;

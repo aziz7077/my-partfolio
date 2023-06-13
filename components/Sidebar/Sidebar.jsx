@@ -46,7 +46,7 @@ const SideBar = ({ showNav, setShowNav, openMenu, setOpenMenu }) => {
           whileHover={{ scale: 1.1, transition: "0.4s" }}
         >
           <a href="#aboutUs" onClick={handleClick}>
-            О нас
+            Обо мне
           </a>
         </motion.li>
         <motion.li
@@ -56,7 +56,7 @@ const SideBar = ({ showNav, setShowNav, openMenu, setOpenMenu }) => {
           whileHover={{ scale: 1.1, transition: "0.4s" }}
         >
           <a href="#services" onClick={handleClick}>
-            Сервисы
+            Навыки
           </a>
         </motion.li>
         <motion.li

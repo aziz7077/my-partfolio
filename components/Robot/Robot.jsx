@@ -13,12 +13,12 @@ const Robot = () => {
       id="aboutUs"
       style={{
         background:
-          "linear-gradient(90deg, rgba(109, 149, 252, 0.67) -33.12%,  rgba(109, 149, 252, 0) 30.39% )",
+          "linear-gradient(90deg, rgba(255, 49, 52, 0.67) -33.12%,  rgba(255, 49, 52, 0) 30.39% )",
       }}
       animate={{
         background: [
-          "linear-gradient(90deg, rgba(109, 149, 252, 0.67) -53.12%,  rgba(109, 149, 252, 0) -10% )",
-          "linear-gradient(90deg, rgba(109, 149, 252, 0.67) -33.12%,  rgba(109, 149, 252, 0) 30.39% )",
+          "linear-gradient(90deg, rgba(255, 49, 52, 0.67) -53.12%,  rgba(255, 49, 52, 0) -10% )",
+          "linear-gradient(90deg, rgba(255, 49, 52, 0.67) -33.12%,  rgba(255, 49, 52, 0) 30.39% )",
         ],
       }}
       initial="hidden"
@@ -26,12 +26,12 @@ const Robot = () => {
       variants={{
         hidden: {
           background:
-            "linear-gradient(45deg, rgba(109, 149, 252, 0.67) -53.12%,  rgba(109, 149, 252, 0) -10% )",
+            "linear-gradient(45deg, rgba(255, 49, 52, 0.67) -53.12%,  rgba(255, 49, 52, 0) -10% )",
           opacity: 0,
         },
         visible: {
           background:
-            "linear-gradient(90deg, rgba(109, 149, 252, 0.67) -33.12%,  rgba(109, 149, 252, 0) 30.39% )",
+            "linear-gradient(90deg, rgba(255, 49, 52, 0.67) -33.12%,  rgba(255, 49, 52, 0) 30.39% )",
           opacity: 1,
         },
       }}

@@ -1,8 +1,8 @@
 ﻿.back {
   background: linear-gradient(
     0deg,
-    rgba(109, 149, 252, 0.67) -53.12%,
-    rgba(109, 149, 252, 0) 30.39%
+    rgba(255, 49, 52, 0.67) -53.12%,
+    rgba(255, 49, 52, 0) 30.39%
   );
   .footer_container {
     max-width: 80%;
@@ -22,7 +22,7 @@
       text-align: center;
       letter-spacing: 0.015em;
       text-transform: uppercase;
-      color: #6d95fc;
+      color:  rgba(255, 0, 0, 0.732);
     }
     p:nth-of-type(1) {
       font-family: "Poppins", sans-serif, sans-serif;
@@ -52,7 +52,7 @@
         text-align: center;
         letter-spacing: -0.025em;
         text-transform: capitalize;
-        color: #6d95fc;
+        color:  rgba(255, 0, 0, 0.732);
         list-style: none;
         cursor: pointer;
       }
@@ -96,7 +96,6 @@
         text-align: center;
         letter-spacing: 0.015em;
         text-transform: uppercase;
-        color: #6d95fc;
       }
       p {
         font-family: "Poppins", sans-serif;
@@ -128,7 +127,6 @@
             text-align: center;
             letter-spacing: -0.025em;
             text-transform: capitalize;
-            color: #6d95fc;
           }
         }
       }
@@ -156,7 +154,6 @@
         text-align: center;
         letter-spacing: 0.015em;
         text-transform: uppercase;
-        color: #6d95fc;
       }
       p {
         font-family: "Poppins", sans-serif;
@@ -188,7 +185,6 @@
             text-align: center;
             letter-spacing: -0.025em;
             text-transform: capitalize;
-            color: #6d95fc;
             list-style: none;
             cursor: pointer;
           }

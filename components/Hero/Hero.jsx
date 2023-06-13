@@ -11,12 +11,12 @@ const Hero = () => {
         <motion.div
           style={{
             background:
-              "linear-gradient(268deg, rgba(109, 149, 252, 0.67) -50.55%,  rgba(109, 149, 252, 0) 25.97% )",
+              "linear-gradient(268deg, rgba(255, 49, 52, 0.67) -50.55%,  rgba(255, 49, 52, 0) 25.97% )",
           }}
           animate={{
             background: [
-              "linear-gradient(268deg, rgba(109, 149, 252, 0.67) -10%,  rgba(109, 149, 252, 0) -10% )",
-              "linear-gradient(268deg, rgba(109, 149, 252, 0.67) -20.55%,  rgba(109, 149, 252, 0) 25.97% )",
+              "linear-gradient(268deg, rgba(255, 49, 52, 0.67) -10%,  rgba(255, 49, 52, 0) -10% )",
+              "linear-gradient(268deg, rgba(255, 49, 52, 0.67) -20.55%,  rgba(255, 49, 52, 0) 25.97% )",
             ],
           }}
           initial="hidden"
@@ -24,12 +24,12 @@ const Hero = () => {
           variants={{
             hidden: {
               background:
-                "linear-gradient(268deg, rgba(109, 149, 252, 0.67) -10%,  rgba(109, 149, 252, 0) -10% )",
+                "linear-gradient(268deg, rgba(255, 49, 52, 0.67) -10%,  rgba(255, 49, 52, 0) -10% )",
               opacity: 0,
             },
             visible: {
               background:
-                "linear-gradient(268deg, rgba(109, 149, 252, 0.67) -20.55%,  rgba(109, 149, 252, 0) 25.97% )",
+                "linear-gradient(268deg, rgba(255, 49, 52, 0.67) -20.55%,  rgba(255, 49, 52, 0) 25.97% )",
               opacity: 1,
             },
           }}

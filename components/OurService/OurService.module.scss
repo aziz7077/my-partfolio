@@ -28,7 +28,7 @@
       letter-spacing: 0.145em;
       text-transform: uppercase;
 
-      color: #6d95fc;
+      color: rgba(255, 0, 0, 0.732);
     }
     h2 {
       font-family: "Poppins", sans-serif;
@@ -45,7 +45,7 @@
         font-size: 34px;
         line-height: 124.5%;
         text-transform: capitalize;
-        color: rgba(109, 149, 252, 1);
+        color:  rgba(255, 0, 0, 0.732);
       }
     }
     hr {
@@ -64,7 +64,7 @@
       color: #ffffff;
     }
     button {
-      border: 3px solid #6d95fc;
+      border: 3px solid  rgba(255, 0, 0, 0.732);
       border-radius: 2px;
       width: 230px;
       height: 40px;
@@ -81,8 +81,8 @@
       background: none;
     }
     button:hover {
-      color: #000000;
-      background-color: #6d95fc;
+      color: #fff;
+      background-color:  rgba(255, 0, 0, 0.732);
       transition: 0.5s;
     }
   }

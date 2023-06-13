@@ -18,7 +18,7 @@ const Reviews = () => {
               visible: { scale: 1 },
             }}
           >
-            ЧТО ГОВОРЯТ <br /> <span style={{ color: "#6D95FC" }}>НАШИ</span>{" "}
+            ЧТО ГОВОРЯТ <br /> <span style={{ color: " rgba(255, 0, 0, 0.732)" }}>НАШИ</span>{" "}
             КЛИЕНТЫ?
           </motion.h1>
           <motion.hr

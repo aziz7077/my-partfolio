@@ -9,7 +9,7 @@
     rgba(16, 16, 16, 0) 50%
   );
   transition: 1s;
-  
+
   .header__content {
     max-width: 1920px;
     height: 120px;
@@ -38,7 +38,7 @@
         text-align: center;
         letter-spacing: -0.025em;
         text-transform: uppercase;
-        color: #6d95fc;
+        color: rgba(255, 0, 0, 0.732);
         padding-top: 8px;
       }
     }
@@ -65,7 +65,7 @@
       .animateLine {
         height: 4px;
         position: absolute;
-        background: #6d95fc;
+        background: rgba(188, 7, 7, 0.84);
         border-radius: 10px;
         transition: 0.3s ease-in-out;
         bottom: -15px;

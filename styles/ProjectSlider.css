@@ -42,7 +42,7 @@
 }
 
 .Project_slider .swiper-pagination .swiper-pagination-bullet-active {
-  background: #007aff;
+  background:  rgba(255, 0, 0, 0.732);
 }
 
 @media screen and (max-width: 1050px) {

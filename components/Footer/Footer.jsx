@@ -8,12 +8,12 @@ const Footer = () => {
       <motion.div
         style={{
           backgroundImage:
-            "linear-gradient(0deg, rgba(109, 149, 252, 0.67) -53.12%,  rgba(109, 149, 252, 0) 30.39% )",
+            "linear-gradient(0deg, rgba(255, 49, 49, 0.67) -53.12%,  rgba(255, 49, 49, 0) 30.39% )",
         }}
         animate={{
           backgroundImage: [
-            "linear-gradient(0deg, rgba(109, 149, 252, 0.67) -10%,  rgba(109, 149, 252, 0) -10% )",
-            "linear-gradient(0deg, rgba(109, 149, 252, 0.67) -53.12%,  rgba(109, 149, 252, 0) 40.39% )",
+            "linear-gradient(0deg, rgba(255, 49, 49, 0.67) -10%,  rgba(255, 49, 49, 0) -10% )",
+            "linear-gradient(0deg, rgba(255, 49, 49, 0.67) -53.12%,  rgba(255, 49, 49, 0) 40.39% )",
           ],
         }}
         initial="hidden"
@@ -21,12 +21,12 @@ const Footer = () => {
         variants={{
           hidden: {
             background:
-              "linear-gradient(0deg, rgba(109, 149, 252, 0.67) -10%,  rgba(109, 149, 252, 0) -10% )",
+              "linear-gradient(0deg, rgba(255, 49, 49, 0.67) -10%,  rgba(255, 49, 49, 0) -10% )",
             opacity: 0,
           },
           visible: {
             background:
-              "linear-gradient(0deg, rgba(109, 149, 252, 0.67) -53.12%,  rgba(109, 149, 252, 0) 40.39% )",
+              "linear-gradient(0deg, rgba(255, 49, 49, 0.67) -53.12%,  rgba(255, 49, 49, 0) 40.39% )",
             opacity: 1,
           },
         }}

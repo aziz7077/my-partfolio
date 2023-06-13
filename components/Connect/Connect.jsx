@@ -63,7 +63,7 @@ const Connect = () => {
               visible: { scale: 1 },
             }}
           >
-            <img src="/email.png" alt="email" />
+            <img src="/email.jpg" alt="email" />
             <h2>
               Gmail <b>azizchik261@gmail.com</b>
             </h2>

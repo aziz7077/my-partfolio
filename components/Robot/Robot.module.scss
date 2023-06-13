@@ -44,7 +44,7 @@
       flex-direction: column;
       gap: 42px;
       span {
-        color: #6d95fc;
+        color: rgba(255, 0, 0, 0.732);
       }
       h4 {
         font-family: "Poppins", sans-serif;
@@ -54,13 +54,13 @@
         line-height: 32px;
         letter-spacing: 0.145em;
         text-transform: uppercase;
-        color: #6d95fc;
+        color:  rgba(255, 0, 0, 0.732);
       }
       hr {
         width: 97px;
       }
       h6 {
-        color: #6d95fc;
+        color:  rgba(255, 0, 0, 0.732);
         font-family: "Poppins", sans-serif;
         font-style: normal;
         font-weight: 400;
@@ -81,7 +81,7 @@
         margin-top: 10px;
         width: 230px;
         height: 40px;
-        border: 3px solid #6d95fc;
+        border: 3px solid  rgba(255, 0, 0, 0.732);
         border-radius: 2px;
         background: none;
         color: #ffffff;
@@ -93,8 +93,8 @@
         transition: 0.5s;
       }
       button:hover {
-        color: #000000;
-        background-color: #6d95fc;
+        color: #fff;
+        background-color:  rgba(255, 0, 0, 0.732);
         transition: 0.5s;
       }
     }

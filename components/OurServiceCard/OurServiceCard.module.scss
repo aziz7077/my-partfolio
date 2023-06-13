@@ -4,15 +4,15 @@
     .card:nth-child(1) {
       background: linear-gradient(
         90deg,
-        rgba(109, 149, 252, 0.35) -106.67%,
+        rgba(255, 49, 52, 0.35) -106.67%,
         rgba(21, 21, 21, 0.31) 100.83%
       );
     }
     .card:nth-child(2) {
       background: linear-gradient(
         357.34deg,
-        rgba(109, 149, 252, 0.55) -217.33%,
-        rgba(109, 149, 252, 0) 66.64%
+        rgba(255, 49, 52, 0.55) -217.33%,
+        rgba(255, 49, 52, 0) 66.64%
       );
     }
   
@@ -22,14 +22,14 @@
     .card:nth-child(1) {
       background: linear-gradient(
         2.42deg,
-        rgba(109, 149, 252, 0.55) -180.08%,
-        rgba(109, 149, 252, 0) 67.52%
+        rgba(255, 49, 52, 0.55) -180.08%,
+        rgba(255, 49, 52, 0) 67.52%
       );
     }
     .card:nth-child(2) {
       background: linear-gradient(
         90deg,
-        rgba(109, 149, 252, 0.35) -292.67%,
+        rgba(255, 49, 52, 0.35) -292.67%,
         rgba(21, 21, 21, 0.31) 74.83%
       );
     }
@@ -58,7 +58,7 @@ height: 100px;
       text-align: center;
       letter-spacing: 0.06em;
       text-transform: uppercase;
-      color: #6d95fc;
+      color:  rgba(255, 0, 0, 0.732);
     }
   }
   
@@ -103,8 +103,8 @@ height: 100px;
         border-radius: 10px;
         background: linear-gradient(
           357.34deg,
-          rgba(109, 149, 252, 0.55) -207.33%,
-          rgba(109, 149, 252, 0) 106.64%
+          rgba(255, 49, 52, 0.55) -207.33%,
+          rgba(255, 49, 52, 0) 106.64%
         );      }
       
       h1{

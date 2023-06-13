@@ -17,7 +17,7 @@ const VideoBackground = () => {
                 zIndex: "-100",
                 objectFit: "cover",
             }}
-            src="/bg.jpg"/>
+            src="/bg.png"/>
         </div>
     );
 };

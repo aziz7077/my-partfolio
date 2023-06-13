@@ -3,8 +3,8 @@
   height: 600px;
   background: linear-gradient(
     179.96deg,
-    #12192b 0.03%,
-    rgba(18, 25, 43, 0) 109.04%
+    rgb(255, 25, 43 ,0.3) 0.03%,
+    rgba(255, 25, 43, 0) 109.04%
   );
   border-radius: 34px;
   backdrop-filter: blur(15px);
@@ -59,7 +59,7 @@
       padding: 7px;
     }
     button {
-      border: 3px solid #6d95fc;
+      border: 3px solid  rgba(255, 0, 0, 0.732);
       border-radius: 2px;
       width: 50%;
       height: 40px;
@@ -77,8 +77,8 @@
       margin: 0 auto;
     }
     button:hover {
-      color: #000000;
-      background-color: #6d95fc;
+      color: #fff;
+      background-color:  rgba(255, 0, 0, 0.732);
       transition: 0.5s;
     }
   }

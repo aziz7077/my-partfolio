@@ -113,7 +113,7 @@ const Header = () => {
               >
                 <a
                   href="#"
-                  style={navColor === 1 ? { color: "#6d95fc" } : null}
+                  style={navColor === 1 ? { color: "rgba(188, 7, 7, 0.84)" } : null}
                 >
                   Главная
                 </a>
@@ -126,7 +126,7 @@ const Header = () => {
               >
                 <a
                   href="#aboutUs"
-                  style={navColor === 2 ? { color: "#6d95fc" } : null}
+                  style={navColor === 2 ? { color: "rgba(188, 7, 7, 0.84)" } : null}
                 >
                   Обо мне
                 </a>
@@ -139,7 +139,7 @@ const Header = () => {
               >
                 <a
                   href="#services"
-                  style={navColor === 3 ? { color: "#6D95FC" } : null}
+                  style={navColor === 3 ? { color: "rgba(188, 7, 7, 0.84)" } : null}
                 >
                   Навыки
                 </a>
@@ -152,7 +152,7 @@ const Header = () => {
               >
                 <a
                   href="#projects"
-                  style={navColor === 4 ? { color: "#6d95fc" } : null}
+                  style={navColor === 4 ? { color: "rgba(188, 7, 7, 0.84)" } : null}
                 >
                   Проекты
                 </a>
@@ -165,7 +165,7 @@ const Header = () => {
               >
                 <a
                   href="#contacts"
-                  style={navColor === 5 ? { color: "#6D95FC" } : null}
+                  style={navColor === 5 ? { color: "rgba(188, 7, 7, 0.84)" } : null}
                 >
                   Контакты
                 </a>

@@ -40,12 +40,12 @@ const Statistics = () => {
 		<motion.section
 			ref={ref}
 			style={{
-				background: "linear-gradient(	270deg,#6d95fc -127.55%,rgba(21, 21, 21, 0.35) 55.97%)"
+				background: "linear-gradient(	270deg, rgba(255, 0, 0, 0.732) -127.55%,rgba(21, 21, 21, 0.35) 55.97%)"
 			}}
 			animate={{
 				background: [
-					"linear-gradient(	270deg,#6d95fc -10%,rgba(21, 21, 21, 0.35) -10%)",
-					"linear-gradient(	270deg,#6d95fc -127.55%,rgba(21, 21, 21, 0.35) 55.97%)",
+					"linear-gradient(	270deg, rgba(255, 0, 0, 0.732) -10%,rgba(21, 21, 21, 0.35) -10%)",
+					"linear-gradient(	270deg, rgba(255, 0, 0, 0.732) -127.55%,rgba(21, 21, 21, 0.35) 55.97%)",
 				]
 			}}
 			transition={{ duration: 2 }}
@@ -53,8 +53,8 @@ const Statistics = () => {
 			whileInView="visible"
 			variants={
 				{
-					hidden: { background: "linear-gradient(	270deg,#6d95fc -10%,rgba(21, 21, 21, 0.35) -10%)", opacity: 0 },
-					visible: { background: "linear-gradient(	270deg,#6d95fc -127.55%,rgba(21, 21, 21, 0.35) 55.97%)", opacity: 1 }
+					hidden: { background: "linear-gradient(	270deg, rgba(255, 0, 0, 0.732) -10%,rgba(21, 21, 21, 0.35) -10%)", opacity: 0 },
+					visible: { background: "linear-gradient(	270deg, rgba(255, 0, 0, 0.732) -127.55%,rgba(21, 21, 21, 0.35) 55.97%)", opacity: 1 }
 				}
 			}
 			className={s.statistics_section} >

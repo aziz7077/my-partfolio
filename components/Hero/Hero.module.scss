@@ -30,11 +30,11 @@
             text-transform: uppercase;
             color: #ffffff;
             span {
-              color: #6d95fc;
+              color:  rgba(255, 0, 0, 0.732);
             }
           }
           hr {
-            border: 1px solid #6d95fc;
+            border: 1px solid  rgba(255, 0, 0, 0.732);
             width: 144px;
             height: 0px;
           }
@@ -47,7 +47,7 @@
             line-height: 32px;
           }
           button {
-            border: 3px solid #6d95fc;
+            border: 3px solid  rgba(255, 0, 0, 0.732);
             border-radius: 2px;
             width: 230px;
             height: 40px;
@@ -64,8 +64,8 @@
             background: none;
           }
           button:hover {
-            color: #000000;
-            background-color: #6d95fc;
+            color: #fff;
+            background-color:  rgba(255, 0, 0, 0.732);
             transition: 0.5s;
           }
         }
